@@ -10,5 +10,6 @@ python-multipart
 aiofiles
 pdfplumber
 thefuzz
+frontend
 pytz
 fitz
