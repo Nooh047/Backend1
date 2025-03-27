@@ -11,6 +11,7 @@ aiofiles
 pdfplumber
 docutils
 thefuzz
+pymupdf
 frontend
 pytz
 fitz
