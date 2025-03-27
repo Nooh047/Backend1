@@ -9,6 +9,7 @@ scikit-learn
 python-multipart
 aiofiles
 pdfplumber
+docutils
 thefuzz
 frontend
 pytz
