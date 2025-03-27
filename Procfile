@@ -1,1 +1,1 @@
-web: uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
+uvicorn main:app --host  192.168.1.75 --port 5000 --reload
