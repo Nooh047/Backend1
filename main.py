@@ -665,7 +665,7 @@ def reset_database(db: Session = Depends(get_db)):
 if __name__ == "__main__":
     import uvicorn# Import Uvicorn ASGI server
     # Run the FastAPI app using Uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000, reload=True)# FastAPI app instance
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)# FastAPI app instance
     # Allows access from any network (use "127.0.0.1" for local only)
     # Runs the app on port 5000
     # Enables auto-reloading for development (restarts the server on code changes)
